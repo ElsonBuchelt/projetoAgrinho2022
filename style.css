@@ -1,0 +1,212 @@
+body {
+
+    background-color: #C2D4C6;
+}
+header {
+    background-color: #0B7210;
+    padding: 20px 0;
+}
+.logo{
+    height:200px;
+    width: 200px;
+}
+nav {
+    position: absolute;
+    top: 100px;
+    right:0;
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover {
+    color:  #79C44F;
+    text-decoration: underline;
+}
+
+
+.caixa {
+    width: 940px;
+    position: relative;
+    margin: 0 auto
+}
+.fundo{
+        text-align: justify ;
+       padding: 20; 
+       margin: 20px;
+}
+.itens {
+    width: 940px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.itens li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid; #000000;
+    border-radius: 10px;
+    background: linear-gradient(#79C44F, white);
+}
+.itens li:hover {
+    border: 3px solid #0B7210;
+    background: linear-gradient(white, #79C44F);
+}
+.itens li:active {
+    border-color: #79C44F;
+}
+.itens li:hover h2 {
+    font-size: 30px;
+}
+.imagemlateral{
+    height: 200px;
+    width: 200px;
+}
+footer{
+    color: white;
+    padding: 10px;
+    text-align: center;
+    background: #0B7210;}
+.imagemfinal{
+    position: relative;
+    right: 600px;
+    top: 25px;
+    height: 100px;
+    width: 100px;
+}
+/*page2*/
+
+.tituloinfografico{
+
+    text-align: center;
+}
+.listainfografico {
+background-color: #79C44F ;
+display: flexbox;
+width: 600px;
+height: 1000px;
+border: black solid 2px;
+margin-left: 25%;
+border-radius: 10px;
+}
+
+
+
+.linhainfografica {
+display: inline;
+width: inherit;
+height: inherit;
+margin: 10px;
+}
+
+.linhainfografica:hover {
+transform: scale(2);
+
+
+
+}
+.ladoesquerdo {
+display:inline-flex;
+
+}
+.imageminfografico {
+display:inline-flex;
+width: 150px;
+height: 150px;
+margin-right: 10px;
+vertical-align:top;
+}
+
+}
+.tituloinfografico {
+    display:inline-block;
+    width: 400px;
+    height: 30px;
+    margin: 10px;
+    vertical-align: top;
+    font-size: 32px;
+
+}
+.paragrafoinfografico {
+
+    display:inline-block;
+    width: 369px;
+    height: 30px;
+    margin: 10px;
+    text-align: justify;
+}
+
+.boaspráticas {
+
+    display: flex;
+    align-items: center;
+    flex-direction:column ;
+}
+
+.relato {
+
+    margin: 20px;
+    padding: 20px;
+}
+
+/*page3*/
+
+.Sobreadinp {
+    background-color:#79C44F  ;
+    width: 100%px;
+    height: inherit;
+    text-align: justify;
+    border: black solid 2px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.contato {
+     background-color:#79C44F  ;
+    width: 100%px;
+    height: inherit;
+    text-align: justify;
+    border: black solid 2px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.telefone i::before {
+    content: "📞";
+}
+
+.email i::before {
+    content: "📧  ";
+}
+
+.comochegar {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+     background-color:#79C44F  ;
+    width: 100%px;
+    height: inherit;
+    text-align: justify;
+    border: black solid 2px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.mapa{
+    width: 100%;
+}
