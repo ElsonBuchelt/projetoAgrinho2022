@@ -95,8 +95,9 @@ footer{
 .listainfografico {
 background-color: #79C44F ;
 display: flexbox;
-width: 600px;
-height: 1000px;
+width: 100vw;
+max-width: 600px;
+height: auto;
 border: black solid 2px;
 margin-left: 25%;
 border-radius: 10px;
