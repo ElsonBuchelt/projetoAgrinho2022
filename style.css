@@ -217,8 +217,8 @@ vertical-align:top;
 
 @media screen and (max-whidth: 480px) {
 
-    h1 {
-     color: red;
+    header {
+        background-color: red;
     }
     
 }
