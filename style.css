@@ -214,3 +214,11 @@ vertical-align:top;
 .mapa{
     width: 100%;
 }
+
+@media screen and (max-whidth: 480px) {
+
+    h1 {
+     color: red;
+    }
+    
+}
