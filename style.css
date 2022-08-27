@@ -4,10 +4,10 @@ body {
 }
 header {
     background-color: #0B7210;
-    padding: 20px 0;
+    padding: .20rem 0;
 }
 .logo{
-    height:200px;
+    height: 200px;
     width: 200px;
 }
 nav {
@@ -17,14 +17,14 @@ nav {
 }
 nav li {
     display: inline;
-    margin: 0 0 0 15px;
+    margin: 0 0 0 .20rem;
 }
 
 nav a {
     text-transform: uppercase;
     color: white;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 1.5em;
     text-decoration: none;
 }
 nav a:hover {
@@ -34,27 +34,27 @@ nav a:hover {
 
 
 .caixa {
-    width: 940px;
+    width: 100vw;
     position: relative;
     margin: 0 auto
 }
 .fundo{
         text-align: justify ;
-       padding: 20; 
-       margin: 20px;
+       padding: 0.2vw; 
+       margin: 0.2vw;
 }
 .itens {
-    width: 940px;
+    width: 100vw;
     margin: 0 auto;
-    padding: 20px;
+    padding: px;
 }
 .itens li {
     display: inline-block;
     text-align: center;
-    width: 30%;
+    width: 300px;
     vertical-align: top;
     margin: 0 1.5%;
-    padding: 30px 20px;
+    padding: 5vw 2vw;
     box-sizing: border-box;
     border: 2px solid; #000000;
     border-radius: 10px;
@@ -68,7 +68,7 @@ nav a:hover {
     border-color: #79C44F;
 }
 .itens li:hover h2 {
-    font-size: 30px;
+    font-size: 1.5em;
 }
 .imagemlateral{
     height: 200px;
@@ -76,7 +76,7 @@ nav a:hover {
 }
 footer{
     color: white;
-    padding: 10px;
+    padding: 5vw;
     text-align: center;
     background: #0B7210;}
 .imagemfinal{
