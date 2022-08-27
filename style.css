@@ -157,9 +157,11 @@ vertical-align:top;
 }
 
 .relato {
-
-    margin: 20px;
-    padding: 20px;
+    width: 100vw;
+   max-width: 560px;
+   height: auto;
+    margin: 1vw;
+    padding: 1vw;
 }
 
 /*page3*/
