@@ -159,7 +159,8 @@ vertical-align:top;
 .relato {
     width: 100vw;
    max-width: 560px;
-   height: auto;
+   height:56vw;
+   max-height: 315px;
     margin: 1vw;
     padding: 1vw;
 }
