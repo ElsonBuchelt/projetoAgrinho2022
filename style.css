@@ -46,17 +46,17 @@ nav a:hover {
 .itens {
     width: 100vw;
     margin: 0 auto;
-    padding: px;
-}
+    padding: .20rem;}
+  
 .itens li {
     display: inline-block;
     text-align: center;
     width: 300px;
     vertical-align: top;
     margin: 0 1.5%;
-    padding: 5vw 2vw;
+    padding: .20rem 0;
     box-sizing: border-box;
-    border: 2px solid; #000000;
+    border: 2px solid #000000;
     border-radius: 10px;
     background: linear-gradient(#79C44F, white);
 }
