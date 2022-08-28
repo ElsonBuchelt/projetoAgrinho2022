@@ -16,8 +16,7 @@ nav {
     right:0;
 }
 nav li {
-    display: inline-block;
-    width: 30vw;
+    display: inline;
     margin: 0 0 0 .20rem;
 }
 
