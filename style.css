@@ -192,6 +192,7 @@ vertical-align:top;
     display: inline-block;
     width: 45%;
     height: 45%;
+    vertical-align: top;
 
 }
 .contato {
