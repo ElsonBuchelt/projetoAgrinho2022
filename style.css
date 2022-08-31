@@ -187,6 +187,11 @@ vertical-align:top;
     display: inline-block;
     width:45%;
     height:auto;
+    
+}
+.imagem_adinp {
+    width: inherit;
+    height: inherit;
 
 }
 .contato {
