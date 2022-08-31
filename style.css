@@ -171,13 +171,24 @@ vertical-align:top;
     background-color:#79C44F  ;
     width: 100%px;
     height: inherit;
-    text-align: justify;
     border: black solid 2px;
     border-radius: 10px;
     margin: 10px;
     padding: 10px;
 }
+.Sobreadinp__texto {
+    display: inline-block;
+    width:45%;
+    height: inherit;
+    text-align: justify;
+    
+}
+.Sobreadinp__imagem {
+    display: inline-block;
+    width:45%;
+    height:auto;
 
+}
 .contato {
      background-color:#79C44F  ;
     width: 100%px;
